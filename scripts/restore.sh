@@ -8,5 +8,5 @@ mkdir -p ${GIT_BASE_PATH}/.niogit/
 cd ${GIT_BASE_PATH}/.niogit/
 for repo_name in "${array[@]}";
 do
-git clone ssh://git@${GIT_HOST}:722/drools/${repo_name}.git
+git clone ssh://git@${GIT_HOST}:722/drools/${repo_name}.git ${repo_name}.git
 done
